@@ -10,5 +10,5 @@ type ProfileRespository interface {
 	Update(string, *model.Profile) error
 	Delete(string) error
 	FindByID(string) (*model.Profile, error)
-	FindAll() (*model.Profile, error)
+	FindAll() (*model.Profiles, error)
 }
